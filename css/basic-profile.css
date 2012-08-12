@@ -1,0 +1,44 @@
+/*
+Original design: Basic Profile (v1.0 - March 23rd, 2011) - A free xhtml/css website template by Andreas Viklund.
+For more information, see http://andreasviklund.com/templates/basic-profile/
+*/
+
+*{margin:0; padding:0;}
+body {background:#fff url(background.jpg) top center no-repeat; color:#303030; font:84% Arial,Helvetica,sans-serif; line-height:1.6em;}
+a {color:#239a23; text-decoration:none;}
+a:hover {text-decoration:underline;}
+p,ul,ol,dl {margin:0 0 30px 0;}
+ul {list-style-type: none;}
+p {font-size: 1.1em; margin-bottom: 1em;}
+h1 {color:#888; font-size:3.2em; border-bottom:2px solid #eee; line-height:1.1em; letter-spacing:-3px; margin:0 0 15px 0;}
+h1 a {color:#239a23; text-transform:none;}
+h2 {font-size:2.2em; color:#333; margin:0 0 20px; letter-spacing:-1px; width: 550px;}
+h3 {font-size:1.8em; margin:10px 0 15px 0; letter-spacing:-1px;}
+h1 {font-weight; 700; line-height:1.4em;}
+h2,h3 {font-weight:400; line-height:1.4em;}
+#whatsnew {border-bottom: 2px solid #eee;}
+#wrap {color:#303030; margin:40px auto; padding:0; width:980px;}
+#content {text-align:left; width:600px; padding-right:40px;}
+#sidebar {float:right; width:280px; padding-left:40px; border-left:0px solid #ccc; }
+#sidebar ul {list-style:none; margin:0; padding:10px 0 0 0; border-top:1px solid #eee;}
+#sidebar li {list-style:none; font-size:1.2em; margin:0 0 10px; padding:0 0 10px 0; color:#888; border-bottom:1px solid #eee;}
+#sidebar li a {font-size:1.2em;}
+#sidebar h2 {font-size: 1.4em;}
+.slogan {color:#888; font-size:1.4em; font-weight:700; margin:0 0 20px 0; letter-spacing:-1px;}
+.readmore {text-align:right; margin:0 20px 30px 0;}
+.timestamp {display:block; font-weight:700; color:#888; text-align:right; width:150px; padding:0px 20px 0px 0; height: 50px; float:left; margin:0 20px 5px 0; border-right:2px solid #eee;}
+.timestamp a {font-weight:normal;}
+.credits {display:block; clear:left; font-size:0.9em; color:#aaa; margin:20px 0;}
+.credits a {color:#888;}
+.clear {clear:both;}
+span.proj_title {font-weight: bold;}
+span.proj_dates {font-weight: bold; color: #666;}
+span.blog_date {position: relative; top: -25px; }
+div.normal_lists ul {list-style: disc; font-size: 1.1em; }
+#name_link { color: #888888; text-decoration: none; }
+ul#pub_list li {margin-bottom: 10px; font-size: 1.1em;}
+ul#blog_ul li {margin-bottom: 10px; font-size: 1.1em;}
+span.post_date { color: #888888; }
+p.tldr{font-style: italic; color: #444444; }
+table#headerTable{ margin-bottom: 20px; }
+div#new_box {height: 210px; overflow: auto; }

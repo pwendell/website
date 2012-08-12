@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="description"
+    content="Patrick Wendell, PhD Student in Computer Science." />
+  <meta name="keywords" content="patrick,wendell,computer science,phd" />
+  <meta name="author" content="Patrick Wendell" />
+  <link rel="stylesheet" type="text/css" href="/~pwendell/css/basic-profile.css"
+    title="Patrick Wendell" media="all" />
+  <title>
+    Patrick Wendell {% if page.title %} | {{ page.title }} {% endif %}
+                    {% if post.title %} | {{ post.title }} {% endif %}
+  </title>
+</head>
+
+<body>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js">
+    </script>
+  
+  <!-- Google Analytics -->
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-1050958-4']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+<div id="wrap">
+  <div id="sidebar">
+    <img src="/~pwendell/img/headshot_small.jpg" width="280" height="200"
+      style="margin-left:0px; border:0;" alt="Patrick headshot" />
+<!--    <p class="slogan">Image caption</p> -->
+    {% include nav.html %}
+  </div>
+
+  <div id="content">
+    <h1 style="margin-bottom: 0px;">
+      <a id="name_link" href="/~pwendell/">Patrick Wendell</a>
+    </h1>
+    <div id="underbox" style="position:relative;top:-35px;left:290px;color:grey;">
+    <a href="https://twitter.com/fratpat">[@fratpat]</a>
+    <a href="http://www.linkedin.com/pub/patrick-wendell/a/150/344">[linkedin]</a>
+
+    </div>
+    <div id="main_div" class="content_div">
+    {{ content }}
+
+{% if page.comments %}
+<div id="disqus_thread" style="margin-top:50px;"></div>
+<script type="text/javascript">
+  // Configs
+  var disqus_shortname = 'patrickwendell';
+
+  (function() {
+  var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+  dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+   })();
+</script>
+
+<noscript>
+  Please enable JavaScript to view the 
+  <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+</noscript>
+<a href="http://disqus.com" class="dsq-brlink">
+comments powered by <span class="logo-disqus">Disqus</span>
+</a>
+{% endif %}
+
+
+    </div>
+  </div>
+
+  <p class="credits">&copy; 2012 Patrick Wendell<br />
+    Adapted from template designed by
+  <a href="http://andreasviklund.com/">Andreas Viklund</a></p>
+</div>
+</body>
+</html>

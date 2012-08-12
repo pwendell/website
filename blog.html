@@ -1,0 +1,16 @@
+---
+layout: body
+---
+<p>
+Please enjoy this sparse and rarely updated collection of unorganized thoughts!
+Don't take anything you read on the Internet seriously.
+</p>
+
+<ul id="blog_ul">
+{% for post in site.posts %}
+  <li>
+  <a href="/~pwendell{{ post.url }}">{{ post.title }}</a>
+  <span class="post_date"> | {{ post.date | date: "%B %e, %Y" }}</span> 
+</li>
+{% endfor %}
+</ul>

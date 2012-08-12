@@ -1,0 +1,78 @@
+---
+layout: body
+---
+
+<script>
+function add_log_entry(timestamp, str) {
+  div = "<div style='height:70px'>" +
+  " <p class='timestamp'>" + timestamp + "<br /></p><p>" + str + "</p></div>";
+  $("#new_box").append(div);
+}
+
+$(document).ready(function(){
+  add_log_entry("June 1, 2012",
+    "Started summer work at <a href='http://www.cloudera.com'>Cloudera</a>" +
+    " working on Hadoop engineering and customer-specific data management" +
+    " solutions.");
+
+  add_log_entry("May 7, 2012",
+    "DONAR project part of Google's 2012" +
+    "<a href='http://www.google-melange.com/gsoc/homepage/google/gsoc2012'>" +
+    " Summer of Code");
+
+  add_log_entry("December 10, 2011",
+    "Selected as a 2012 U.C. Berkeley " +
+    "<a href='http://berkeley.mayfieldfellows.com/''>Mayfield Fellow</a>. " +
+    "Entrepreneurial fellowship program at Stanford/Berkeley for " +
+    "Engineering students.");
+
+  add_log_entry("Nov 4th, 2011",
+    "Presented Flash Crowd paper <a href=" +
+    "'http://www.cs.berkeley.edu/~pwendell/docs/flash-imc11.pdf'>[pdf]</a>" +
+    " in Berlin. Slides " +
+    " <a href='http://www.cs.berkeley.edu/~pwendell/docs/flash-imc11-slides.pptx'>" +
+    "[pptx] </a> now posted on Publications page.");
+
+  add_log_entry("July 22nd, 2011",
+    "Flash Crowd paper accepted to <a href='" +
+    "http://conferences.sigcomm.org/imc/2011/'>IMC 2011</a>. Will present " +
+    "work in early November in Berlin.");
+
+  add_log_entry("June 6th, 2011",
+    "Started work at <a href='http://www.conviva.com'>Conviva Networks</a>." +
+    " Summer project to focus on realtime anomaly detection in streaming" +
+    " video networks.");
+
+  add_log_entry("June 2nd, 2011",
+    "Graduated from Princeton University's " +
+    "<a href='http://www.cs.princeton.edu'>Computer Science Program");
+
+  add_log_entry("April 18th, 2011",
+    "Awarded National Defense Science and Engineering Graduate (NDSEG) " +
+    "<a href='http://ndseg.asee.org/'>Fellowship</a>");
+
+  $("#new_box").find("a").attr("target", "_blank");
+});
+</script>
+
+<p>
+  Hello world! Welcome to my corner of the web. I am a second year Ph.D
+  student at U.C. Berkeley focusing on data-intensive large scale
+  computing. I hack a lot in the Hadoop ecosystem and enjoy
+  solution oriented approaches to data management. I work in the
+  U.C. Berkeley <a href=http://amplab.cs.berkeley.edu/>AMP Lab</a> and
+  I am funded with a <a href="http://ndseg.asee.org/">
+ NDSEG Graduate Fellowship</a>. I am also a U.C. Berkeley
+ <a href="http://www.mayfieldfellows.com/">Mayfield Fellow</a>.
+</p>
+<p>
+ Before Berkeley, I was at Princeton as an undergrad. At Princeton I 
+ worked on Internet measurement and content distribution.
+ Over the last five years I've held internships at several
+ technology companies, including Google, Cloudera, and Conviva.
+ I have a long-standing interest in high-tech entrepreneurship.
+ I am active <a href="https://twitter.com/fratpat">on Twitter</a>.
+</p>
+
+<h3 id="whatsnew">What's New</h3>
+<div id="new_box"></div> <!--  Populated automatically -->
