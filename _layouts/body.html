@@ -8,6 +8,8 @@
   <meta name="author" content="Patrick Wendell" />
   <link rel="stylesheet" type="text/css" href="/~pwendell/css/basic-profile.css"
     title="Patrick Wendell" media="all" />
+  <link rel="stylesheet" type="text/css" 
+    href="/~pwendell/css/pygments/default.css" />
   <title>
     Patrick Wendell {% if page.title %} | {{ page.title }} {% endif %}
                     {% if post.title %} | {{ post.title }} {% endif %}
@@ -51,8 +53,10 @@
     <div id="main_div" class="content_div">
     {{ content }}
 
+
 {% if page.comments %}
-<div id="disqus_thread" style="margin-top:50px;"></div>
+<p><a href="https://twitter.com/fratpat">Follow me</a> on Twitter.</p>
+<div id="disqus_thread" style="margin-top:20px;"></div>
 <script type="text/javascript">
   // Configs
   var disqus_shortname = 'patrickwendell';
