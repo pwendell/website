@@ -57,11 +57,12 @@
 
 
 {% if page.comments %}
-<p><a href="https://twitter.com/fratpat">Follow me</a> on Twitter.</p>
+<p>If you've gotten this far, you should <a href="https://twitter.com/fratpat">Follow me</a> on Twitter.</p>
 <div id="disqus_thread" style="margin-top:20px;"></div>
 <script type="text/javascript">
   // Configs
   var disqus_shortname = 'patrickwendell';
+  var disqus_identifier = '{{ page.id }}';
 
   (function() {
   var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
