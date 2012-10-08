@@ -9,7 +9,7 @@ comments: true
 Java is increasingly the language of choice for systems programming, 
 especially in open source
 projects like Hadoop. While the JVM provides useful, time-saving
-abstractions, those same simplifications often hide performance implications.
+abstractions, those same simplifications hide performance implications.
 Often people realize this too late, once a system is running (slowly). 
 To keep myself honest, I try to dig through JVM code to see exactly what is 
 going on in various performance-sensitive constructs, such as concurrency
