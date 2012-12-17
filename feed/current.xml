@@ -5,9 +5,9 @@ layout: nil
 <feed xmlns="http://www.w3.org/2005/Atom">
  
  <title>Patrick Wendell</title>
- <link href="http://www.eecs.berkeley.edu/~pwendell/feed/current.xml" 
+ <link href="/feed/current.xml" 
    rel="self"/>
- <link href="http://www.eecs.berkeley.edu/~pwendell/blog/"/>
+ <link href="/~pwendell/blog/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
  <id>http://recursive-design.com/</id>
  <author>
