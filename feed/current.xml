@@ -7,7 +7,7 @@ layout: nil
  <title>Patrick Wendell</title>
  <link href="/feed/current.xml" 
    rel="self"/>
- <link href="/~pwendell/blog/"/>
+ <link href="/blog/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
  <id>http://recursive-design.com/</id>
  <author>

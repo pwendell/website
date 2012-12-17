@@ -9,7 +9,7 @@ Don't take anything you read on the Internet seriously.
 <ul id="blog_ul">
 {% for post in site.posts %}
   <li>
-  <a href="/~pwendell{{ post.url }}">{{ post.title }}</a>
+  <a href="{{ post.url }}">{{ post.title }}</a>
   <span class="post_date"> | {{ post.date | date: "%B %e, %Y" }}</span> 
 </li>
 {% endfor %}
