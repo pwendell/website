@@ -112,8 +112,8 @@ listed here. In general, using a declarative runtime like Spark offers several a
 
 * **_Simplicity_**: This code is concise and has very little boilerplate. It closely reflects the underlying logic and is easy to understand. This makes the code more maintainable and less prone to bugs.
 * **_Testability_**: Each transformation on a Spark stream (`map`, `window`, etc) can be 
-independently tested by on mocked collections. Spark streaming also supports injecting synthetic
-streams, which allows you to operators which cover multiple time periods, such as `window`. 
+independently tested using mocked collections. Spark streaming also supports injecting synthetic
+streams, which allows you to operators which cover multiple time periods such as `window`. 
 * **_Scalability_**: Want to run this code on 5 nodes, 10 nodes, on 100 nodes? Because every
 Spark operator is inherently parallel, you don't need to change any code when scale increases.
 Task scheduling and data movement are all handled for you automatically as part of the runtime.
