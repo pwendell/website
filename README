@@ -1,7 +1,4 @@
-This website is generated using Jekyll and published to S3. To make and publish
-use the following commands (requires S3 access to my bucket):
+This website consists of a single static page.
 
-$ jekyll --pygments
-$ cd _site
 $ s3cmd del -r s3://www.pwendell.com/ --force
 $ s3cmd sync . s3://www.pwendell.com/ --acl-public

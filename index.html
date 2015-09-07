@@ -1,104 +1,82 @@
----
-layout: body
----
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="description"
+    content="Patrick Wendell, Co-Founder of Databricks." />
+  <meta name="keywords" content="patrick,wendell,databricks,computer science,phd" />
+  <meta name="author" content="Patrick Wendell" />
+  <link rel="stylesheet" type="text/css" href="css/basic-profile.css"
+    title="Patrick Wendell" media="all" />
+  <link rel="stylesheet" type="text/css" 
+    href="css/pygments/default.css" />
+  <title>
+    Patrick Wendell
+  </title>
+</head>
 
-<script>
-function add_log_entry(timestamp, str) {
-  div = "<div style='height:70px'>" +
-  " <p class='timestamp'>" + timestamp + "<br /></p><p>" + str + "</p></div>";
-  $("#new_box").append(div);
-}
+<body>
+  <script src="/js/jquery.min.js">
+    </script>
+  
+  <!-- Google Analytics -->
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-1050958-4']);
+    _gaq.push(['_trackPageview']);
 
-$(document).ready(function(){
-  add_log_entry("September 25, 2013", "Release manager for <a href='http://spark.incubator.apache.org/releases/spark-release-0-8-0.html'>Spark 0.8.0</a>. Largest release ever with 67 contributors!");
-  add_log_entry("June 26, 2013", "Work on low latency scheduling to appear in <a href='http://sigops.org/sosp/sosp13/program.html'>SOSP 2013</a>.");
-  add_log_entry("June 19, 2013", "Became <a href='http://mail-archives.apache.org/mod_mbox/incubator-general/201306.mbox/%3CCDD80F64.D5F9D%25chris.a.mattmann@jpl.nasa.gov%3E'>founding committer</a> of <a href='http://spark.incubator.apache.org/'>Apache Spark</a>.");
-  add_log_entry("May 13, 2013", "Completed Masters of Science in Computer Science at <a href='www.eecs.berkeley.edu/'>UC Berkeley EECS</a>.");
-  add_log_entry("November 12, 2012",
-    "Elected as a <a href='http://mail-archives.apache.org/mod_mbox/flume-user/201211.mbox/%3C843560C0717C42A48D02732C5C0D1227@cloudera.com%3E'>committer</a> to <a href='https://cwiki.apache.org/FLUME/'>Apache Flume</a>.");
-  add_log_entry("September 20, 2012",
-    "Work on low latency scheduling now <a href='/docs/sparrow-submission.pdf'>posted</a>. " + 
-    "Technique uses probabilistic sampling to improve scheduler performance.");
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
 
-  add_log_entry("September 3, 2012",
-    "Teaching-assistant this semester for " +
-    "<a href='http://inst.eecs.berkeley.edu/~cs162/fa12/'> " + 
-    "CS 162: Operating Systems </a>.");
+<div style="width: 100%; text-align: center; margin-top: 20px;">
+  <div style="width: 600px; margin: 0 auto; text-align: left;">
+    <h1 style="margin-bottom: 0px;">
+      <a id="name_link" href="/">Patrick Wendell</a>
+    </h1>
+    <div id="underbox" style="position:relative;top:-35px;left:290px;color:grey;">
+    <a href="https://twitter.com/pwendell">[@pwendell]</a>
+    <a href="http://www.linkedin.com/pub/patrick-wendell/a/150/344">[linkedin]</a>
+    </div>
+    <div id="main_div" class="content_div">
+	    <div style="width: 280px; text-align: center; float: right;">
+      	<img src="img/headshot.jpg" height="200"
+        style="margin-left:0px; border:0;" alt="Patrick headshot" />
+			</div>
+			<p>	
+				Hello world! Welcome to my corner of the web.
+				I am a co-founder of <a href="http://www.databricks.com">Databricks</a> and direct
+				our efforts maintaining and extending
+				<a href="http://spark.apache.org/">Apache Spark</a>. We are actively hiring great
+				people, visit our <a href="https://databricks.com/company/careers">jobs page</a> 
+				if you are interested in applying. The best place to follow what
+				I'm up to is probably on Twitter where I <a href="https://twitter.com/pwendell">
+				go by pwendell</a>.
+			</p>
 
-  add_log_entry("August 21, 2012",
-    "U.C. Berkeley <a href='http://ampcamp.berkeley.edu/'>AMP Camp</a> " +
-    "this week (covered by <a href='http://news.slashdot.org/story/12/08/20/" + 
-    "120216/uc-berkeley-offers-free-big-data-class-this-week'>Slashdot</a>, " + 
-    "<a href='http://news.ycombinator.com/item?id=4405206'>HackerNews</a>, " +
-    "and <a href='https://twitter.com/timoreilly/status/237566745945178112'>" + 
-    "Tim O'Reilly</a>).");
+			<h4>Formal Bio for Speaking Purposes</h4>
 
-  add_log_entry("June 1, 2012",
-    "Started summer work at <a href='http://www.cloudera.com'>Cloudera</a>" +
-    " working on Hadoop engineering and customer-specific data management" +
-    " solutions.");
+			<p>
+				Patrick Wendell is a co-founder of Databricks as well as a founding
+				Committer and PMC member of Apache Spark. In the Spark project,
+				Patrick has acted as release manager for several Spark releases, in addition to
+				maintaining several subsystems of Spark's core engine. At Databricks, Patrick directs
+				the companies maintaince and development of Spark.
+			</p>
+			<p>
+				Patrick holds an M.S. in Computer Science at UC Berkeley, where his research focused on
+				low latency scheduling for large scale analytics workloads. He holds a B.S.E in Computer
+				Science from Princeton University.
+			</p>
+    </div>
+  </div>
 
-  add_log_entry("May 7, 2012",
-    "DONAR project part of Google's 2012" +
-    "<a href='http://www.google-melange.com/gsoc/homepage/google/gsoc2012'>" +
-    " Summer of Code");
-
-  add_log_entry("December 10, 2011",
-    "Selected as a 2012 U.C. Berkeley " +
-    "<a href='http://berkeley.mayfieldfellows.com/''>Mayfield Fellow</a>. " +
-    "Entrepreneurial fellowship program at Stanford/Berkeley for " +
-    "Engineering students.");
-
-  add_log_entry("Nov 4th, 2011",
-    "Presented Flash Crowd paper <a href=" +
-    "'/docs/flash-imc11.pdf'>[pdf]</a>" +
-    " in Berlin. Slides " +
-    " <a href='/docs/flash-imc11-slides.pptx'>" +
-    "[pptx] </a> now posted on Publications page.");
-
-  add_log_entry("July 22nd, 2011",
-    "Flash Crowd paper accepted to <a href='" +
-    "http://conferences.sigcomm.org/imc/2011/'>IMC 2011</a>. Will present " +
-    "work in early November in Berlin.");
-
-  add_log_entry("June 6th, 2011",
-    "Started work at <a href='http://www.conviva.com'>Conviva Networks</a>." +
-    " Summer project to focus on realtime anomaly detection in streaming" +
-    " video networks.");
-
-  add_log_entry("June 2nd, 2011",
-    "Graduated from Princeton University's " +
-    "<a href='http://www.cs.princeton.edu'>Computer Science Program");
-
-  add_log_entry("April 18th, 2011",
-    "Awarded National Defense Science and Engineering Graduate (NDSEG) " +
-    "<a href='http://ndseg.asee.org/'>Fellowship</a>");
-
-  $("#new_box").find("a").attr("target", "_blank");
-});
-</script>
-
-<p>	
-  Hello world! Welcome to my corner of the web. I recently put a Ph.D
-  on pause to help start <a href="http://www.databricks.com">Databricks</a>.
-</p>
-
-<p>
-  Previously, I worked in the Computer Science department at UC Berkeley 
-  focusing on data-intensive large scale computing. I worked in the 
-  <a href=http://amplab.cs.berkeley.edu/>AMP Lab</a> and
-  I was funded with an <a href="http://ndseg.asee.org/">
- NDSEG Graduate Fellowship</a>. I was also a U.C. Berkeley
- <a href="http://www.mayfieldfellows.com/">Mayfield Fellow</a>.
- Before Berkeley, I was at Princeton as an undergrad. At Princeton I 
- worked on Internet measurement and content distribution.
-</p>
-<p>
- Over the last five years I've held internships at several
- technology companies, including Google, Cloudera, and Conviva.
- I have a long-standing interest in high-tech entrepreneurship.
- I am active <a href="https://twitter.com/fratpat">on Twitter</a>.
-</p>
-
-<h3 id="whatsnew">What's New</h3>
-<div id="new_box"></div> <!--  Populated automatically -->
+  <p class="credits">&copy; 2015 Patrick Wendell<br />
+    Adapted from template designed by
+  <a href="http://andreasviklund.com/">Andreas Viklund</a></p>
+</div>
+</body>
+</html>
