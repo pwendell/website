@@ -1,4 +1,4 @@
 This website consists of a single static page.
 
 $ s3cmd del -r s3://www.pwendell.com/ --force
-$ s3cmd sync . s3://www.pwendell.com/ --acl-public
+$ s3cmd sync --rexlude=".git/*" . s3://www.pwendell.com/ --acl-public
